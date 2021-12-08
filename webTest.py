@@ -13,3 +13,4 @@ for loc in soup.select('location') :
     print("최저기온 : ", loc.select_one('tmn').string, end = ", ")
     print("최고기온 : ", loc.select_one('tmx').string)
 
+print()
