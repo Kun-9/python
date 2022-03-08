@@ -33,8 +33,8 @@ def creatXY() :
     arr[-1:] = "*"
     return arr
 
-class move():
-    def up():
+class move:
+    def up(self):
         if(int(y) > p.maxNum):   
             if (p.x > 1):
                 p.x -= 1
